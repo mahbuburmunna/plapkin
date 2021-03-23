@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px){
+    .row{
+        max-width: 100%;
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .about-grid {
+        
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .about-grid-item img {
+        width: 50%;
+    }
+    .work-grid,
+    .process-grid {
+        
+    grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .work-grid-item:nth-child(5) {
+        grid-column: 1/2;
+    }
+}
+    @media screen and (max-width: 768px){
+    .hero-text-box h1{
+        font-size: 4rem;
+        margin: 1rem 0;
+    }
+    .hero-text-box span{
+        font-size: 1.6rem;
+    }
+    .section-title h2 {
+        font-size: 3rem;
+       
+    }
+    .process-grid-item {
+        
+        
+        
+        padding: 5rem 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .exp-grid {
+        
+        grid-template-columns:1fr;
+        
+    }
+    .work-grid, .process-grid {
+        grid-template-columns: 1fr;
+    }
+    .contract-grid {
+        
+            grid-template-columns: 1fr;
+            
+    }
+    #tm {
+        background: #fff;
+        text-align: center;
+    }
+    .tm-grid {
+        
+        grid-template-columns: 1fr;
+    }
+
+}
+@media screen and (max-width: 480px){
+    #hero {
+       
+        
+        padding: 4.5rem 0;
+        
+    }
+    html, body{
+        font-size: 55.5%;
+    }
+    .about-grid-item img {
+        width: 70%;
+    }
+}
